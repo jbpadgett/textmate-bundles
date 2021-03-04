@@ -1,0 +1,23 @@
+# Version 1.0 -- Generated content!
+fontSize         = 18
+showInvisibles   = true
+showWrapColumn   = true
+wrapColumn       = 1000
+
+[ *.bak ]
+fileType         = source.powershell
+
+[ *.log ]
+fileType         = source.ssh-config
+
+[ *.ps1 ]
+fileType         = source.powershell
+
+[ *.txt ]
+fileType         = text.plain
+
+[ text ]
+showInvisibles   = true
+
+[ text.plain ]
+showInvisibles   = true
