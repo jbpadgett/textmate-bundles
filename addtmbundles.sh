@@ -6,7 +6,7 @@
 #svn co http://svn.textmate.org/trunk/Review/Bundles/GetBundles.tmbundle/
 
 #Copy a previously downloaded group of tmbundles for TextMate to a new machine
-cp -rT ..Textmate/ ~/Library/Application\ Support/TextMate/Bundles
+cp -r Textmate/. ~/Library/Application\ Support/TextMate/
 
 #Tell TextMate to reload bundles
 osascript -e 'tell app "TextMate" to reload bundles'
